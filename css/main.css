@@ -1,0 +1,206 @@
+html {
+    width: 98%;
+    height: 98%;
+    position: fixed;
+}
+
+/* body {
+    background-color: #F3EDD9;
+    width: 100%;
+    height: 100%;
+}
+
+.header1 {
+    background-color: #573532;
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+} */
+
+.header2 {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+}
+
+.beverage a,
+.food a,
+.my-page a {
+    width: 130px;
+    height: 80%;
+    background-color: #573532;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-page i {
+    margin-right: 5px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80%;
+    margin-top: 10px;
+}
+
+.menu-list,
+.order-list {
+    background-color: white;
+
+}
+
+.menu-list {
+    width: 70%;
+    padding: 13px 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.menu-row {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 99%;
+    height: 45%;
+
+}
+
+.menu-list-box {
+    display: inline-block;
+    width: 18%;
+    height: 90%;
+    border: 5px solid #5735327f;
+    border-radius: 2px;
+}
+
+.menu-list-box a {
+    text-decoration-line: none;
+    color: black;
+}
+
+
+.menu-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 65%;
+    background-color: #5735327f;
+}
+
+.menu-img img {
+    max-width: 100%;
+    max-height: 90%;
+    display: block;
+}
+
+.menu-price span {
+    display: block;
+    margin-left: 5px;
+}
+
+#price {
+    margin-top: 10px;
+}
+
+/* 주문 목록 부분 */
+
+.order-list {
+    width: 30%;
+    margin-left: 20px;
+    padding: 10px 20px;
+}
+
+.order-list span {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}
+
+.order-detail {
+    height: 65%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.order-detail table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.order-detail th,
+.order-detail td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #5735327f;
+}
+
+.order-detail th {
+    background-color: #5735327f;
+}
+
+.total_price,
+.delete_all button {
+    background-color: #5735327f;
+    color: white;
+    border-radius: 5px;
+    justify-content: right;
+    align-items: center;
+    display: flex;
+    padding: 8px;
+}
+
+.delete_all {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.place-order {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5735327f;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.delete_all button {
+    border: none;
+    padding: 8px;
+    margin: 5px;
+    font: inherit;
+    cursor: pointer;
+}
+
+.place-order button {
+    border: none;
+    background: none;
+    padding: 8px;
+    margin: 5px;
+    font: inherit;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+    /* 마우스 호버 시 배경색 변경 */
+}

@@ -1,0 +1,79 @@
+.signin {
+  padding: 120px;
+  background-image: url(../html/image/coffee.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.signin h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.signin .signin__card {
+  width: 500px;
+  margin: 0 auto;
+  border-radius: 10px;
+  /* background-color: #F6F5F0; */
+  background-color: white;
+  color: #555;
+}
+
+.signin__card h2 {
+  padding: 25px;
+  font-size: 22px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.signin__card form {
+  padding: 30px 22px;
+}
+
+.signin__card form input {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.signin__card form [type="button"] {
+  background-color: black;
+  border: solid;
+  border: 2px;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.signin__card form p {
+  font-size: 12px;
+  text-align: center;
+}
+
+.signin__card .actions {
+  display: flex;
+  border: none;
+}
+
+.signin__card .actions a {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 20px;
+  color: #555;
+  font-size: 12px;
+}
+
+.signin__card .actions a:hover {
+  text-decoration: underline;
+}

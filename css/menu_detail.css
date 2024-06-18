@@ -1,0 +1,109 @@
+.big-box {
+    width: 100%;
+    height: 86%;
+    margin-top: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-box {
+    width: 80%;
+    height: 90%;
+}
+
+.menu-detail-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+}
+
+.menu_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: #5735327f;
+}
+
+.menu_img img {
+    width: 30%;
+}
+
+.menu_detail {
+    padding-left: 20px;
+    width: 50%;
+    height: 100%;
+    padding-top: 10%;
+}
+
+.menu_detail hr {
+    border-top: 2px solid black;
+    width: 98%;
+    margin-right: 20px;
+}
+
+.menu_detail p {
+    font-size: 17px;
+}
+
+#hr {
+    border-top: 1px solid gray;
+    width: 95%;
+    margin-right: 20px;
+}
+
+.menu_detail p {
+    margin: 20px 0px;
+}
+
+#price {
+    margin-top: 16%;
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.submit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.submit a {
+    background-color: #5735327f;
+    color: white;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    text-decoration-line: none;
+}
+
+.submit input {
+    border: none;
+    padding: 10px;
+    margin: 15px;
+    font: inherit;
+    cursor: pointer;
+    background-color: #5735327f;
+    color: white;
+    border-radius: 5px;
+}
+
+input:hover,
+a:hover {
+    color: black;
+    /* 마우스 호버 시 배경색 변경 */
+}
+
+#quantity {
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+}

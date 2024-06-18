@@ -1,0 +1,20 @@
+body{
+  background-color: white;
+  text-align: center;
+}
+
+.findPW{
+  width: 350px;
+  margin: 0 auto;
+  text-align: center;
+  color: #555;
+}
+
+.btn.btn--white{
+  font-weight: bold;
+  color: white;
+  vertical-align: bottom;
+  border-radius: 5px;
+  border: solid;
+  background-color: black;
+}
